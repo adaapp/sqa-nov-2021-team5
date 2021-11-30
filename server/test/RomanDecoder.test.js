@@ -67,9 +67,6 @@ describe("Roman decoder test", ()=>{
       test('Check if C equals 100', () =>{
         expect(RomanDecoder("C")).toBe(100);
       });
-      test('Check if C equals 100', () =>{
-        expect(RomanDecoder("C")).toBe(100);
-      });
       test('Check if CI equals 101', () =>{
         expect(RomanDecoder("CI")).toBe(101);
       });
@@ -82,7 +79,7 @@ describe("Roman decoder test", ()=>{
       test('Check if CX equals 110', () =>{
         expect(RomanDecoder("CX")).toBe(110);
       });
-      test('Check if CXV equals 110', () =>{
+      test('Check if CXV equals 115', () =>{
         expect(RomanDecoder("CXV")).toBe(115);
       });
       test('Check if CXX equals 120', () =>{
@@ -111,9 +108,6 @@ describe("Roman decoder test", ()=>{
       });
       test('Check if DCCC equals 800', () =>{
         expect(RomanDecoder("DCCC")).toBe(800);
-      });
-      test('Check if CM equals 900', () =>{
-        expect(RomanDecoder("CM")).toBe(900);
       });
       test('Check if CM equals 900', () =>{
         expect(RomanDecoder("CM")).toBe(900);
