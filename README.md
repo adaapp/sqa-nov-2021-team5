@@ -28,3 +28,9 @@ The table below shows all of the roles within our team and their corresponding r
 | Scrum Master |                Managing the Kanban board, sprints and created tickets. In addition to being in charge of project documentation (eg. test plan).                 |
 |      UX      | In charge of designing the user interfaces and ensuring a good user experience. Includes collaboration with DevOps to conduct pre-project UI testing via Figma. |
 |      QA      |  Making sure everything is of a high quality and adheres to our chosen SQA standard. Includes performing code reviews and following our code review strategy.   |
+
+## Programming Standards
+
+- Use prettier to ensure code formatting is consistent across all files.
+
+- Use camel case for variable names, functions etc.
