@@ -1,22 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  function sayHello() {
+    console.log("Clicked")
+    } 
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <h1>Roman numerals converter</h1>
+        </div>
+        <div>
+        <form>
+          <label>Enter Number:
+            <input type="text" />
+          </label>
+        </form>
+        </div>
+        <div>
+        <form>
+          <label>Enter Roman Number:
+            <input type="text" />
+          </label>
+        </form>
+        </div>
+        <div>
+        <button onClick={sayHello}>Convert</button>
+        </div>
       </header>
     </div>
   );
