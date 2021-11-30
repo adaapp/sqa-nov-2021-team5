@@ -1,6 +1,6 @@
 # sqa-nov-2021-team5
 
-## Google Meet link
+## Communication
 
 Our main communication platform within the team will be Discord. This is because it is easily accessible to everyone in the team, and provides a good way of sending and recieving files / documents.
 
