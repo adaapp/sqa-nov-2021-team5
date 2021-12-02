@@ -8,7 +8,7 @@ Our main external communication platform will be the following google meet: http
 
 ## Team Members
 
-The tabbelow le shows our teams members, in addition to their roles and account links.
+The table below displays our teams members, in addition to their roles and account links.
 
 |  Name  |     Role     |                                                           GitHub                                                            |                                             LinkedIn                                             |
 | :----: | :----------: | :-------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
@@ -31,7 +31,9 @@ The table below shows all of the roles within our team and their corresponding r
 
 ## Pull Request Rules
 
-When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard. After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the `QA member` will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch. 
+When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard. 
+
+After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the `QA member` will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch. 
 
 
 ## Programming Standards
@@ -56,3 +58,26 @@ To ensure we have clean source code we will follow some basic rules:
 8) Create many utility files that help us remove duplicate code from multiple files.
 9) Seperate all the service calls into a seperate file.
 10) Thoroughly format each line of code which `prettier` can help us with. 
+
+## Definiton of Done
+
+Upon completing any user story, we will see whether the Product has met the Definiton of Done. DoD (Definiton of Done) includes the conditions and criteria that the software solution has to meet in order to be accepted by the customer. What Done means to us is that the code is developed to our standards, reviewed, implemented with Test-Drive Devleopment, tested with 100 percent test automation, integrated and documented. 
+
+We need to check whether the user story is compliant with the initial assumptions of the single backlog item, which it was described in. On this stage we also control quality of written code and check if all necessary elements of our process were carried out, here is our checklist:
+
+- Produced code for presumed functionalities
+- Assumptions of User Story met
+- Project builds without errors
+- Unit tests written and passing
+- Project deployed on the test environment identical to production platform
+- Tests on devices/browsers listed in the project assumptions passed
+- Feature ok-ed by UX designer
+- QA performed & issues resolved
+- Feature is tested against acceptance criteria
+- Feature ok-ed by Scrum Master
+- Refactoring completed
+- Any configuration or build changes documented
+- Documentation updated
+- Peer Code Review performed
+
+
