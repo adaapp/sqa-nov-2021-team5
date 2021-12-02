@@ -29,6 +29,11 @@ The table below shows all of the roles within our team and their corresponding r
 |      UX      | In charge of designing the user interfaces and ensuring a good user experience. Includes collaboration with DevOps to conduct pre-project UI testing via Figma. |
 |      QA      |  Making sure everything is of a high quality and adheres to our chosen SQA standard. Includes performing code reviews and following our code review strategy.   |
 
+## Pull Request Rules
+
+When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard. After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the `QA member` will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch. 
+
+
 ## Programming Standards
 
 We will adopt React Coding Standards for the front-end of our application, this includes the following:
