@@ -1,5 +1,13 @@
 # sqa-nov-2021-team5
 
+## Our Project
+
+Our project aim is to create a full stack Roman Numerals Encoder/Decoder application using a frontend Framework called `React` and `Node.js` for the backend runtime environment.  
+
+## Types of Testing Adopted
+
+Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `snapshot testing` (also using `Jest`). Upon completition of development, we will create `manual QA tests scripts` based on our requirements, and perform manual testing on the front-end. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing. 
+
 ## Communication
 
 Our main communication platform within the team will be Discord. This is because it is easily accessible to everyone in the team, and provides a good way of sending and recieving files / documents.
@@ -79,5 +87,7 @@ We need to check whether the user story is compliant with the initial assumption
 - Any configuration or build changes documented
 - Documentation updated
 - Peer Code Review performed
+
+
 
 
