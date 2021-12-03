@@ -88,6 +88,13 @@ We need to check whether the user story is compliant with the initial assumption
 - Documentation updated
 - Peer Code Review performed
 
+## SQA Standard
 
+We have adopted a standard called `IEEE Standard for Software Quality Assurance Processes` with the intention to enable our software project to use SQA processes to produce and collect evidence that form the basis for giving a justified statement of confidence that the software product confirms to its established requirements. The purpose of this standard is to provide uniform, minimum acceptable requirements for SQA processes in support of our software project. 
 
+We will conform to this standard by ensuring that the requirements are achieved, these requirements describe SQA processes, activities, and tasks. Sixteen activities are identified in this clause and are grouped into three major areas: process implementation, product assurance, and product assurance, this can be seen in the image below:
+
+![image](https://user-images.githubusercontent.com/56550489/144634113-6a2625aa-d5d7-4f66-a8a0-f26b4bf386a9.png)
+
+For additional explanation on the IEEE Standard please click on the following [link](https://github.com/adaapp/sqa-nov-2021-team5/files/7650810/730-2014.pdf) for further details. 
 
