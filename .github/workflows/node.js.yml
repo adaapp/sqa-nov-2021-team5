@@ -9,13 +9,14 @@ on:
   pull_request:
     branches: [ main ]
 
+defaults:
+  run:
+    - working-directory: ./server
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    default:
-      run:
-        - working-directory: ./server
     strategy:
       matrix:
         node-version: [12.x, 14.x, 16.x]
