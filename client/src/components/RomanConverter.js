@@ -34,28 +34,26 @@ function RomanConverter(){
 
     return  <div id="root">
                
-                <div>
-                    <h1>Roman numerals converter</h1>
-                </div>
+                
                 <div>
                  
                         {(!numbers.romanNumber && !numbers.normalNumber)
-                        ?   <div>   
-                                <input type="text" placeholder="Normal Number" value={numbers.normalNumber} onChange={(event) => {setNumbers({normalNumber: event.target.value, action: "roman-encode"})}}/> 
-                                <input type="text" placeholder="Roman Number" value={numbers.romanNumber} onChange={(event) => {setNumbers({romanNumber: event.target.value, action: "roman-decode"})}}/>
+                        ?   <div>
+                                <input className="Input-roman-number" type="text" placeholder="Roman Number" value={numbers.romanNumber} onChange={(event) => {setNumbers({romanNumber: event.target.value, action: "roman-decode"})}}/>   
+                                <input className="Input-normal-number" type="text" placeholder="Normal Number" value={numbers.normalNumber} onChange={(event) => {setNumbers({normalNumber: event.target.value, action: "roman-encode"})}}/>
                             </div>
                         
                         : (numbers.action === "roman-encode" && numbers.normalNumber)
 
-                            ?   <div>   
-                                    <input type="text" placeholder="Normal Number" onChange={(event) => {setNumbers({normalNumber: event.target.value, action: "roman-encode"})}}/> 
-                                    <input type="text" placeholder="Roman Number" disabled={true} value={numbers.romanNumber}/>
+                            ?   <div> 
+                                    <input className="Input-roman-number" type="text" placeholder="Roman Number" disabled={true} value={numbers.romanNumber}/>
+                                    <input className="Input-normal-number" type="text" placeholder="Normal Number" onChange={(event) => {setNumbers({normalNumber: event.target.value, action: "roman-encode"})}}/> 
                                 </div>
 
 
                             :   <div>
-                                    <input type="text" placeholder="Normal Number" disabled={true} value={numbers.normalNumber}/>
-                                    <input type="text" placeholder="Roman Number" onChange={(event) => {setNumbers({romanNumber: event.target.value, action: "roman-decode"})}}/>
+                                    <input className="Input-roman-number" type="text" placeholder="Roman Number" onChange={(event) => {setNumbers({romanNumber: event.target.value, action: "roman-decode"})}}/>
+                                    <input className="Input-normal-number" type="text" placeholder="Normal Number" disabled={true} value={numbers.normalNumber}/>
                                 </div>
                     }
                   
