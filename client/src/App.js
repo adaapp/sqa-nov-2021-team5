@@ -1,38 +1,28 @@
 import './App.css';
+import logo from './romaversio.png';
+import column from './column.png';
+import RomanConverter from './components/RomanConverter.js'
 
 function App() {
   
-  function sayHello() {
-    console.log("Clicked")
-    } 
 
 
   return (
     <div className="App">
-      <header className="App-header">
         <div>
-          <h1>Roman numerals converter</h1>
+          <img src={logo} width="350" height="350" />
         </div>
-        <div>
-        <form>
-          <label>Enter Number:
-            <input type="text" />
-          </label>
-        </form>
+      <RomanConverter/>
+      <div className="Column-roman-number">
+          <img src={column} width="380" height="620" />
         </div>
-        <div>
-        <form>
-          <label>Enter Roman Number:
-            <input type="text" />
-          </label>
-        </form>
+        <div className="Column-normal-number">
+          <img src={column} width="380" height="620" />
         </div>
-        <div>
-        <button onClick={sayHello}>Convert</button>
-        </div>
-      </header>
     </div>
   );
 }
 
 export default App;
+
+

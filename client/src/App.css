@@ -1,5 +1,10 @@
+body {
+  background-color: #A66365;
+
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -20,6 +25,34 @@
   color: #61dafb;
 }
 
+.Column-roman-number{
+  position: absolute;
+  left: 300px;
+  width: 200px;
+  height: 20px;
+}
+
+.Column-normal-number{
+  position: absolute;
+  right: 500px;
+  width: 200px;
+  height: 20px;
+}
+
+.Input-roman-number{
+  position: absolute;
+  left: 400px;
+  /* width: 200px;
+  height: 20px; */
+}
+
+.Input-normal-number{
+  position: absolute;
+  right: 450px;
+  /* width: 200px;
+  height: 20px; */
+  
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
