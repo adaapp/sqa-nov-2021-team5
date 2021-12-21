@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="App">
         <div>
-          <img src={logo} width="350" height="350" />
+          <img alt="Website logo, featuring a Roman style helmet and the word Romaversio" src={logo} width="350" height="350" />
         </div>
       <RomanConverter/>
       <div className="Column-roman-number">
-          <img src={column} width="380" height="620" />
+          <img alt="An image of a Roman style pillar" src={column}/>
         </div>
         <div className="Column-normal-number">
-          <img src={column} width="380" height="620" />
+          <img alt="An image of a Roman style pillar" src={column}/>
         </div>
     </div>
   );

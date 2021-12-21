@@ -1,63 +1,137 @@
 body {
-  background-color: #A66365;
-
+  background-color: #a66365;
 }
+
 .App {
   text-align: center;
-
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* All buttons */
+button {
+  border-radius: 12px;
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button:hover {
+  background-color: #202020ab;
+}
+
+/* All input box */
+input {
+  width: 170px;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: #00000018;
+  color: black;
+  text-align: center;
+}
+
+input:disabled {
+  background-color: #7000002a;
+  border-bottom: 2px solid rgb(190, 0, 0);
+}
+
+::placeholder {
+  color: rgba(39, 39, 39, 0.836);
+}
+
+/* Roman number column and input box */
+.Column-roman-number {
+  position: absolute;
+  bottom: 0vh;
+  left: 20vw;
+}
+
+.Column-roman-number img {
+  width: auto;
+  height: 55vh;
+}
+
+.Input-roman-number {
+  position: absolute;
+  bottom: 56vh;
+  left: calc(20vw + 10vh);
+}
+
+/* Normal number column and input box */
+.Column-normal-number {
+  position: absolute;
+  bottom: 0vh;
+  right: 20vw;
+}
+
+.Column-normal-number img {
+  width: auto;
+  height: 55vh;
+}
+
+.Input-normal-number {
+  position: absolute;
+  bottom: 56vh;
+  right: calc(20vw + 10vh);
+}
+
+/* Screen size changes */
+@media only screen and (max-width: 1920px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .Input-roman-number {
+    left: calc(20vw + 7vh);
+  }
+
+  .Input-normal-number {
+    right: calc(20vw + 7vh);
   }
 }
 
-.App-header {
-}
+@media only screen and (max-width: 1315px) {
+  /* body {
+    background-color: rgb(173, 230, 190);
+  } */
 
-.App-link {
-  color: #61dafb;
-}
-
-.Column-roman-number{
-  position: absolute;
-  left: 300px;
-  width: 200px;
-  height: 20px;
-}
-
-.Column-normal-number{
-  position: absolute;
-  right: 500px;
-  width: 200px;
-  height: 20px;
-}
-
-.Input-roman-number{
-  position: absolute;
-  left: 400px;
-  /* width: 200px;
-  height: 20px; */
-}
-
-.Input-normal-number{
-  position: absolute;
-  right: 450px;
-  /* width: 200px;
-  height: 20px; */
-  
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  button {
+    display: block;
+    position: relative;
+    left: 48%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
-  to {
-    transform: rotate(360deg);
+
+  .Column-roman-number {
+    visibility: hidden;
+  }
+
+  .Input-roman-number {
+    display: block;
+    margin: 10px;
+    position: relative;
+    top: 30vh;
+    left: 49%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .Column-normal-number {
+    visibility: hidden;
+  }
+
+  .Input-normal-number {
+    display: block;
+    margin: 10px;
+    position: relative;
+    top: 30vh;
+    left: 49%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button test to check, if button renders correctly 1`] = `
+<div
+  id="root"
+>
+  <div>
+    <div>
+      <input
+        className="Input-roman-number"
+        onChange={[Function]}
+        placeholder="Roman Number"
+        type="text"
+        value=""
+      />
+      <input
+        className="Input-normal-number"
+        onChange={[Function]}
+        placeholder="Normal Number"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Convert
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Input test to check, if input field renders correctly 1`] = `
+<div
+  id="root"
+>
+  <div>
+    <div>
+      <input
+        className="Input-roman-number"
+        onChange={[Function]}
+        placeholder="Roman Number"
+        type="text"
+        value=""
+      />
+      <input
+        className="Input-normal-number"
+        onChange={[Function]}
+        placeholder="Normal Number"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Convert
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Rendering Test Test to check, if component renders correctly 1`] = `
+<div
+  id="root"
+>
+  <div>
+    <div>
+      <input
+        className="Input-roman-number"
+        onChange={[Function]}
+        placeholder="Roman Number"
+        type="text"
+        value=""
+      />
+      <input
+        className="Input-normal-number"
+        onChange={[Function]}
+        placeholder="Normal Number"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Convert
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+  </div>
+</div>
+`;
