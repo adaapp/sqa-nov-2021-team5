@@ -2,11 +2,33 @@
 
 ## Our Project
 
-Our project aim is to create a full stack Roman Numerals Encoder/Decoder application using a frontend Framework called `React` and `Node.js` for the backend runtime environment.  
+Our project aim is to create a full stack Roman Numerals Encoder/Decoder application using a frontend Framework called `React` and `Node.js` for the backend runtime environment.
+
+## Setting up and running the program
+
+### Installing dependencies
+
+Navigate to the `/client` directory in a terminal and
+`yarn install`
+
+in a seperate terminal, navigate to the `/server` directory and
+`yarn install`
+
+### Running the program
+
+In order to run the program you have to open the `/client` directory on one terminal and the `/server` directory on another.
+
+Enter `yarn start` in both terminals to run the front-end react web page and the express back-end.
+
+### Testing the program
+
+In order to run the automated test scripts for the front end, navigate to the `/client` directory and enter `yarn test` in the terminal.
+
+In order to run the automated test scripts for the server, navigate to the `/server` directory and enter `yarn test` in the terminal.
 
 ## Types of Testing Adopted
 
-Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `snapshot testing` (also using `Jest`). Upon completition of development, we will create `manual QA tests scripts` based on our requirements, and perform manual testing on the front-end. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing. 
+Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `snapshot testing` (also using `Jest`). Upon completition of development, we will create `manual QA tests scripts` based on our requirements, and perform manual testing on the front-end. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing.
 
 ## Communication
 
@@ -39,10 +61,9 @@ The table below shows all of the roles within our team and their corresponding r
 
 ## Pull Request Rules
 
-When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard. 
+When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard.
 
-After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the `QA member` will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch. 
-
+After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the `QA member` will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch.
 
 ## Programming Standards
 
@@ -50,26 +71,27 @@ We will adopt React Coding Standards for the front-end of our application, this 
 
 - React UI component's name will be in PascalCase.
 - All other helper files will be camelCase.
-- All the folder names will be camelCase. 
+- All the folder names will be camelCase.
 - CSS files will be named the same as the component PascalCase. Global CSS which applies to all components will be placed in global.css and should be named in camelCase.
-- CSS class names will use a standard naming convention or any standard practice. 
+- CSS class names will use a standard naming convention or any standard practice.
 - Test files will be named the same as the component or non-component file.
 
 To ensure we have clean source code we will follow some basic rules:
-1) Use and adopt the DRY principle (Don't repeat yourself).
-2) Create multiple files instead of writing a big file - componentization of code. 
-3) Place all of our CSS files in one common folder.
-4) Avoid Inline CSS as and when possible.
-5) Use `linter` to make our code easier to follow.
-6) Review our code before creating a pull request.
-7) Split our code into multiple smaller functions. Each with a single repsonsibility.
-8) Create many utility files that help us remove duplicate code from multiple files.
-9) Seperate all the service calls into a seperate file.
-10) Thoroughly format each line of code which `prettier` can help us with. 
+
+1. Use and adopt the DRY principle (Don't repeat yourself).
+2. Create multiple files instead of writing a big file - componentization of code.
+3. Place all of our CSS files in one common folder.
+4. Avoid Inline CSS as and when possible.
+5. Use `linter` to make our code easier to follow.
+6. Review our code before creating a pull request.
+7. Split our code into multiple smaller functions. Each with a single repsonsibility.
+8. Create many utility files that help us remove duplicate code from multiple files.
+9. Seperate all the service calls into a seperate file.
+10. Thoroughly format each line of code which `prettier` can help us with.
 
 ## Definiton of Done
 
-Upon completing any user story, we will see whether the Product has met the Definiton of Done. DoD (Definiton of Done) includes the conditions and criteria that the software solution has to meet in order to be accepted by the customer. What Done means to us is that the code is developed to our standards, reviewed, implemented with Test-Drive Devleopment, tested with 100 percent test automation, integrated and documented. 
+Upon completing any user story, we will see whether the Product has met the Definiton of Done. DoD (Definiton of Done) includes the conditions and criteria that the software solution has to meet in order to be accepted by the customer. What Done means to us is that the code is developed to our standards, reviewed, implemented with Test-Drive Devleopment, tested with 100 percent test automation, integrated and documented.
 
 We need to check whether the user story is compliant with the initial assumptions of the single backlog item, which it was described in. On this stage we also control quality of written code and check if all necessary elements of our process were carried out, here is our checklist:
 
@@ -90,11 +112,10 @@ We need to check whether the user story is compliant with the initial assumption
 
 ## SQA Standard
 
-We have adopted a standard called `IEEE Standard for Software Quality Assurance Processes` with the intention to enable our software project to use SQA processes to produce and collect evidence that form the basis for giving a justified statement of confidence that the software product confirms to its established requirements. The purpose of this standard is to provide uniform, minimum acceptable requirements for SQA processes in support of our software project. 
+We have adopted a standard called `IEEE Standard for Software Quality Assurance Processes` with the intention to enable our software project to use SQA processes to produce and collect evidence that form the basis for giving a justified statement of confidence that the software product confirms to its established requirements. The purpose of this standard is to provide uniform, minimum acceptable requirements for SQA processes in support of our software project.
 
 We will conform to this standard by ensuring that the requirements are achieved, these requirements describe SQA processes, activities, and tasks. Sixteen activities are identified in this clause and are grouped into three major areas: process implementation, product assurance, and product assurance, this can be seen in the image below:
 
 ![image](https://user-images.githubusercontent.com/56550489/144634113-6a2625aa-d5d7-4f66-a8a0-f26b4bf386a9.png)
 
-For additional explanation on the IEEE Standard please click on the following [link](https://github.com/adaapp/sqa-nov-2021-team5/files/7650810/730-2014.pdf) for further details. 
-
+For additional explanation on the IEEE Standard please click on the following [link](https://github.com/adaapp/sqa-nov-2021-team5/files/7650810/730-2014.pdf) for further details.
