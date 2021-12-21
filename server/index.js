@@ -13,7 +13,7 @@ app.get('/', async (req, res) => {
   })
 
 app.post('/roman-decoder', async (req, res) => {
-  const romanNumber = req.body.romanNumber
+  const romanNumber = req.body.romanNumber.toUpperCase()
   res.send(RomanDecoder(romanNumber).toString())
 })
 
