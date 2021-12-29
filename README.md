@@ -1,6 +1,6 @@
-# sqa-nov-2021-team5
+<h1 align="center"> Team's 5 Roman Numeral Prototype </h1>
 
-Note: For the testing documentation please see refer to the [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) folder.
+<p align="center"> <img src=https://user-images.githubusercontent.com/56550489/147671449-92049dc4-91d2-42ea-aec9-4d38600be3cc.png> </p>
 
 ## Our Project
 
