@@ -1,5 +1,7 @@
 # sqa-nov-2021-team5
 
+Note: For additional documentation please see the [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) folder
+
 ## Our Project
 
 Our project aim is to create a full stack Roman Numerals Encoder/Decoder application using a frontend Framework called `React` and `Node.js` for the backend runtime environment.
