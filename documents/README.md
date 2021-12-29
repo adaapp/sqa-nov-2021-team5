@@ -13,3 +13,7 @@ This video features setting up the server and client by navigating into their co
 ## Github actions running test scripts on pull request ([video](https://www.youtube.com/watch?v=QSd44znqm6E))
 
 This video showcases that on a pull request our GitHub actions automatically runs all of the automated test scripts using multiple different dependency versions. First, a pull request is created, then you can see the automated actions starting. Next you can see that once all of the tests have been succesfull, a green check mark appears and the 'Merge pull request' button becomes green, and finally, at the end of the video one of the actions is expanded to show the commands it goes through in order to run each test.
+
+## Sprint retrospective
+
+This excel file contains notes from our sprint retrospectives. It features what went well in each sprint, and what could be improved in each sprint. In addition, it also features actions needed to be taken in future sprints to ensure that the retrospective issues have been resolved.
