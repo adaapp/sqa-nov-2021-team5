@@ -1,6 +1,6 @@
 # sqa-nov-2021-team5
 
-Note: For additional documentation please see the [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) folder
+Note: For the testing documentation please see refer to the [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) folder.
 
 ## Our Project
 
@@ -61,6 +61,10 @@ The table below shows all of the roles within our team and their corresponding r
 |      UX      | In charge of designing the user interfaces and ensuring a good user experience. Includes collaboration with DevOps to conduct pre-project UI testing via Figma. |
 |      QA      |  Making sure everything is of a high quality and adheres to our chosen SQA standard. Includes performing code reviews and following our code review strategy.   |
 
+## Ceremonies: Stand-Ups and Weekly Retrospectives
+
+After gathering requirements, we held a Sprint Planning session - where we distributed the requirements into their respective sprints. Following this, we held daily stand-ups and started working on the first sprint. After the first sprint (server development) we held a retrospective session and evaluated what was working in regards to our development strategy, the document can be found in the [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) directory. We will reiterate this process two more times as we will undertake a total of 3 sprints to ensure that back-end development, front-end development and additional testing plus documentation (manual test scripts and UAT testing - if possible) are complete. 
+
 ## Pull Request Rules
 
 When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard.
@@ -112,11 +116,23 @@ We need to check whether the user story is compliant with the initial assumption
 - Documentation updated
 - Peer Code Review performed
 
+## UI Testing
+
+The UI Testing will be completed using Jest and Automated snapshot tests will be able to be found within the frontend src directory. In addition, the frontend will also be tested via manual QA test scripts (located in [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) folder).
+
+## Automated Tests
+
+The automated unit test scripts are present within both the front-end of the application and the back-end. In the back-end tests scripts test the logic of the application such as converting roman numerals to normal numerals (vice versa); in the frontend the tests are used to ensure that each component is rendered and rendered correctly. Smoke tests are also included within the documentation directory. 
+
+## CI/CD Pipeline
+
+Two GitHub Actions pipelines have been created, these run all of the automated tests within the project after a pull request has been created. This ensures that all of our tests pass prior to merging to the main branch will notifies us whether the entire application is still functional even after many changes.
+
 ## SQA Standard
 
 We have adopted a standard called `IEEE Standard for Software Quality Assurance Processes` with the intention to enable our software project to use SQA processes to produce and collect evidence that form the basis for giving a justified statement of confidence that the software product confirms to its established requirements. The purpose of this standard is to provide uniform, minimum acceptable requirements for SQA processes in support of our software project.
 
-We will conform to this standard by ensuring that the requirements are achieved, these requirements describe SQA processes, activities, and tasks. Sixteen activities are identified in this clause and are grouped into three major areas: process implementation, product assurance, and product assurance, this can be seen in the image below:
+We will conform to this standard by ensuring that the requirements are achieved, these requirements describe SQA processes, activities, and tasks. Sixteen activities are identified in this clause and are grouped into three major areas: process implementation, product assurance actitivies, and additional product assurance, this can be seen in the image below:
 
 ![image](https://user-images.githubusercontent.com/56550489/144634113-6a2625aa-d5d7-4f66-a8a0-f26b4bf386a9.png)
 
