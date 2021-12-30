@@ -30,7 +30,7 @@ In order to run the automated test scripts for the server, navigate to the `/ser
 
 ## Types of Testing Adopted
 
-Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `snapshot testing` (also using Jest). Upon completition of development, we will create `manual QA tests scripts` based on our requirements, and perform manual testing on the front-end. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing.
+Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `Snapshot Testing` (also using Jest). Upon completition of development, we will create `Manual QA Tests Scripts` based on our requirements, and perform manual testing on the front-end. Accessbility Audit Testing will be conducted by using `Microsoft Accessibility Insights for Web` to test the front-end of our application. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing.
 
 ## Communication
 
