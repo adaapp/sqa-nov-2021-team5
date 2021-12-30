@@ -13,7 +13,7 @@ Our project aim is to create a full stack Roman Numerals Encoder/Decoder applica
 Navigate to the `/client` directory in a terminal and
 `yarn install`
 
-in a seperate terminal, navigate to the `/server` directory and
+In a seperate terminal, navigate to the `/server` directory and
 `yarn install`
 
 ### Running the program
@@ -30,7 +30,7 @@ In order to run the automated test scripts for the server, navigate to the `/ser
 
 ## Types of Testing Adopted
 
-Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `snapshot testing` (also using `Jest`). Upon completition of development, we will create `manual QA tests scripts` based on our requirements, and perform manual testing on the front-end. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing.
+Prior to starting development we will create tests using `Jest` in order to adhere to our test driven development strategy, following development we will create front-end `snapshot testing` (also using Jest). Upon completition of development, we will create `manual QA tests scripts` based on our requirements, and perform manual testing on the front-end. Finally, once all of our tests have passed, and development has concluded, we will try and get an external party, or third party to conduct manual UAT testing.
 
 ## Communication
 
@@ -56,10 +56,10 @@ The table below shows all of the roles within our team and their corresponding r
 |     Role     |                                                                         Responsibility                                                                          |
 | :----------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |     All      |                                All roles will take part in writing tests and doing development work due to the small team size.                                 |
-|    DevOps    |                                                        In charge of the CI Pipeline and GitHub workflows                                                        |
+|    DevOps    |                                                        Responsible for the CI Pipeline and GitHub workflows                                                      |
 | Scrum Master |                Managing the Kanban board, sprints and created tickets. In addition to being in charge of project documentation (eg. test plan).                 |
 |      UX      | In charge of designing the user interfaces and ensuring a good user experience. Includes collaboration with DevOps to conduct pre-project UI testing via Figma. |
-|      QA      |  Making sure everything is of a high quality and adheres to our chosen SQA standard. Includes performing code reviews and following our code review strategy.   |
+|      QA      |  Ensures that everything is of a high quality and adheres to our chosen SQA standard. Includes performing code reviews and following our code review strategy. 
 
 ## Ceremonies: Stand-Ups and Weekly Retrospectives
 
@@ -69,7 +69,7 @@ After gathering requirements, we held a Sprint Planning session - where we distr
 
 When creating a pull request on Github we will adopt some rules which will ensure that we are following the industry standard.
 
-After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the `QA member` will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch.
+After initalizing a pull request we will be forwarded to the review page, within this page it is optional to add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and add assignees where necessary. Once we have created a pull request, we will push the commit from our topic branch and add them to the existing pull request. This will mean that other contributors within the project, specifically the QA member will review the proposed changes, add review comments, contribute to the pull request, and even add commits to the pull request. After the QA member and the original contributor are happy with the proposed changes, we will merge the pull request into the main branch.
 
 ## Programming Standards
 
@@ -88,12 +88,11 @@ To ensure we have clean source code we will follow some basic rules:
 2. Create multiple files instead of writing a big file - componentization of code.
 3. Place all of our CSS files in one common folder.
 4. Avoid Inline CSS as and when possible.
-5. Use `linter` to make our code easier to follow.
-6. Review our code before creating a pull request.
-7. Split our code into multiple smaller functions. Each with a single repsonsibility.
-8. Create many utility files that help us remove duplicate code from multiple files.
-9. Seperate all the service calls into a seperate file.
-10. Thoroughly format each line of code which `prettier` can help us with.
+5. Review our code before creating a pull request.
+6. Split our code into multiple smaller functions. Each with a single repsonsibility.
+7. Create many utility files that help us remove duplicate code from multiple files.
+8. Seperate all the service calls into a seperate file.
+9. Thoroughly format each line of code which `prettier` can help us with.
 
 ## Definiton of Done
 
@@ -124,6 +123,18 @@ The UI Testing will be completed using Jest and Automated snapshot tests will be
 
 The automated unit test scripts are present within both the front-end of the application and the back-end. In the back-end tests scripts test the logic of the application such as converting roman numerals to normal numerals (vice versa); in the frontend the tests are used to ensure that each component is rendered and rendered correctly. Smoke tests are also included within the documentation directory. 
 
+## Accessbility Audit Testing
+
+Microsoft Accessibility Insights for Web will conduct tests on the front end of the application, results can be found below.
+
+The screenshot below shows that we have no common accessbility problems within our website. 
+
+![image](https://user-images.githubusercontent.com/56550489/147769491-221a137f-63d7-458d-9b18-ce6eee90c638.png)
+
+The screenshot below depicts an issue with our colour contrast, however because this instance is not related to text content we did not have to act on it (colour of the input textbox border).
+
+![image](https://user-images.githubusercontent.com/56550489/147769526-930a6923-4514-49d0-bbbc-5ba0bb9e9127.png)
+
 ## CI/CD Pipeline
 
 Two GitHub Actions pipelines have been created, these run all of the automated tests within the project after a pull request has been created. This ensures that all of our tests pass prior to merging to the main branch will notifies us whether the entire application is still functional even after many changes.
@@ -137,3 +148,9 @@ We will conform to this standard by ensuring that the requirements are achieved,
 ![image](https://user-images.githubusercontent.com/56550489/144634113-6a2625aa-d5d7-4f66-a8a0-f26b4bf386a9.png)
 
 For additional explanation on the IEEE Standard please click on the following [link](https://github.com/adaapp/sqa-nov-2021-team5/files/7650810/730-2014.pdf) for further details.
+
+## Test Cases, Test Plan
+
+The Test Cases/Scripts written for this application can be found within the [documents](https://github.com/adaapp/sqa-nov-2021-team5/tree/main/documents) folder. 
+
+The Test Plan is included within the documents folder and describes approaches and methodologies that will apply to the unit, automated and system testing of the 'Romaversio Application'.
