@@ -10,7 +10,7 @@ This excel file contains notes from our sprint retrospectives. It features what 
 
 ## Test Plan
 
-This pdf contains our test plan for the project. It features our project scope, quality objectives, test approach, roles and responsibilityies, our test strategy, and recourses and environment needs and our test schedule.
+This pdf contains our test plan for the project. It features our project scope, quality objectives, test approach, roles and responsibilities, our test strategy, and recourses and environment needs and our test schedule.
 
 ## UI Design Document
 
